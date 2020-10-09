@@ -2,8 +2,93 @@
 <html>
     <head>
         <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <h1>You've reached the About Me page.</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Logo<br>Here</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Links</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">GitHub</a>
+                    <a class="dropdown-item" href="#">LinkedIn</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">My Musical Side</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+        <h1 style="margin-top: 15px; margin-bottom: 15px">
+            <center>Musician turned software developer.</center>
+        </h1>
+        <div class="row" style="margin-left: 5px; margin-right: 5px">
+            <div class="col-lg-7">
+                <h3>Crafting elegant music and code</h3>
+                <p>
+                    For the past 9 years, I have been making a living as a professional musician and music educator in the St. Louis metro area.
+                    After finishing a degree in Music Education and Trumpet Performance from Southern Illinios University at Edwardsville,
+                    I began my teaching career with a large music program in crisis - budget cuts had forced the junior high district administration
+                    to cut all sports and arts funding for the year. For a music program with a national reputation, this was a huge blow. As part a team of three
+                    newly-certified music educators, we stepped in to provide the schools with an interim music progam until funding was restored the following year.
+                    During this time, I began what was to be a long and fulfilling relationship with the high school music program in the same town,
+                    which had just stepped onto the national stage with their first semi-finalist placement in the largest marching band competition in the United States.
+                </p>
+                <p>
+                    After completing my master's education at the University of Illinois Urbana-Champaign, I returned to the St. Louis area to take charge of my own
+                    music program, where I taught band and choir for two years while continuing to work with the marching band. In November of 2018, the marching band program
+                    achieved their first ever placement within the coveted the top 12 marching bands in America. Throughout all of this time, I remained an active performer,
+                    completing contracts Celebrity, Royal Caribbean, Cunard, and P&O Cruise Lines in the ship orchestras. I performed regularly groups ranging from
+                    symphony orchestras to salsa and mariachi bands. I also continue to fulfill my obligation to my country, where I serve as a member of the Illinois Air National Guard.
+                    At the end of my time teaching, I had the privilege and thrill of directly engaging with nearly 600 young musical minds every single day.
+                </p>
+                <p>
+                    As I continued down this path, I knew that a change was on the horizon for me. Then, with the devastating blow of COVID-19, I knew I had no choice but to adapt
+                    and continue to positively influence the world in a new way. As I had in so many times of struggle during my musical and professional life,
+                    I rallied myself to take on this new challenge. After 3 months of relentless work, I can confidently say that I am starting to realize how much
+                    I have yet to learn! But, as I continue to do with all of my students, I am confident in my ability to break down problems, find novel and elegant solutions,
+                    and continue forward no matter what the challenge.
+                </p>
+            </div>
+            <div class="col-lg-5">
+                <image src="Pictures\Cruise Ship Playing.jpg" alt="Colin playing trumpet" style="max-width: 100%; max-height: 100%"></image>
+                <p><small>Colin playing his trumpet aboard the Royal Caribbean ship <em>Vision of the Seas.</em></small></p>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <h3><a href="projects.html">Projects</a></h3>
+                        <ul>
+                            <li><a href="#">Custom List</a></li>
+                            <p><small>A recreation of the C# List class</small></p>
+                            <li><a href="#">Battleship</a></li>
+                            <p><small>A console version of the classic game!</small></p>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <h4><a href="contact.html">Links</a></h4>
+                        <button type="button" class="btn btn-secondary" style="width: 125px;">GitHub</button>
+                        <button type="button" class="btn btn-secondary" style="width: 125px;">LinkedIn</button>
+                        <button type="button" class="btn btn-secondary" style="width: 125px;">YouTube</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
