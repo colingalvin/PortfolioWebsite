@@ -4,15 +4,91 @@
         <title>Colin Galvin</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
-
     <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Logo<br>Here</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarColor01">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Links</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">GitHub</a>
+                    <a class="dropdown-item" href="#">LinkedIn</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">My Musical Side</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </nav>
         <h1>
-            Hello, I'm Colin and I'm a <strike>musician</strike> software developer.
+            <center>Hello, I'm Colin and I'm a <strike>musician</strike><br>software developer.</center>
         </h1>
-        <ul><h2>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </h2></ul>
+        <div class="row">
+            <div class="col-lg-7">
+                <image src="Pictures\TB_75.jpg" alt="Headshot of Colin Galvin" style="max-width: 100%; max-height: 100%"></image>
+                <p><small>Colin in front of his hometown Gateway Arch in St. Louis, MO.</small></p>
+            </div>
+            <div class="col-lg-5">
+                <h2>About Me</h2>
+                <p>
+                    My name is Colin Galvin, and I am a professionally-trained musician turned software developer.
+                    After 6.5 years of school and 9 years of performance/teaching experience, I decided that it was time for a new challenge.
+                    So, I found a coding bootcamp, applied the same work ethic that I honed after all of the years of practice on my instrument,
+                    and came out the other side ready to make my mark on the developer world!
+                    Thank you for visiting, and please enjoy everything that my website has to offer!
+                </p>
+            <div class="row">
+                <div class="col-lg-5">
+                    <h4>
+                        Links<br>
+                        <p>
+                            
+                        </p>
+                        Contact
+                    </h4>
+                </div>
+                <div class="col-lg-7">
+                    <h3>
+                        Projects
+                    </h3>
+                    <p><small>
+                        Links to GitHub projects w/ brief descriptions of each.
+                    </small></p>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Custom List</h5>
+                            </div>
+                            <p class="mb-1">Recreate functionality of the C# List class.</p>
+                            <small class="text-muted">Created in week 4 of learning.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Battleship</h5>
+                            </div>
+                            <p class="mb-1">A console version of the classic game!</p>
+                            <small class="text-muted">Created in week 3 of learning.</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
